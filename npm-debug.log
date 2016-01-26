@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'ionic-datepicker' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json gizilocker@1.1.1 No repository field.
+6 warn package.json gizilocker@1.1.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'ionic-datepicker', null ]
+9 verbose cache add name=undefined spec="ionic-datepicker" args=["ionic-datepicker",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'ionic-datepicker',
+10 verbose parsed url   path: 'ionic-datepicker',
+10 verbose parsed url   href: 'ionic-datepicker' }
+11 silly lockFile bb650367-ionic-datepicker ionic-datepicker
+12 verbose lock ionic-datepicker /home/quangdung/.npm/bb650367-ionic-datepicker.lock
+13 silly lockFile bb650367-ionic-datepicker ionic-datepicker
+14 silly lockFile bb650367-ionic-datepicker ionic-datepicker
+15 verbose addNamed [ 'ionic-datepicker', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 6e0eec8e-ionic-datepicker ionic-datepicker@
+18 verbose lock ionic-datepicker@ /home/quangdung/.npm/6e0eec8e-ionic-datepicker.lock
+19 silly addNameRange { name: 'ionic-datepicker', range: '*', hasData: false }
+20 verbose request where is /ionic-datepicker
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id ca3b99d7e8664e4f
+23 verbose url raw /ionic-datepicker
+24 verbose url resolving [ 'https://registry.npmjs.org/', './ionic-datepicker' ]
+25 verbose url resolved https://registry.npmjs.org/ionic-datepicker
+26 verbose request where is https://registry.npmjs.org/ionic-datepicker
+27 info trying registry request attempt 1 at 14:42:03
+28 verbose etag "ESOKDTTG9C66VDLQO3XTU7L5K"
+29 http GET https://registry.npmjs.org/ionic-datepicker
+30 http 404 https://registry.npmjs.org/ionic-datepicker
+31 silly registry.get cb [ 404,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"ESOKDTTG9C66VDLQO3XTU7L5K"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '486',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Thu, 24 Dec 2015 07:42:03 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1450942923.385320,VS0,VE351',
+31 silly registry.get     vary: 'Accept' } ]
+32 silly lockFile 6e0eec8e-ionic-datepicker ionic-datepicker@
+33 silly lockFile 6e0eec8e-ionic-datepicker ionic-datepicker@
+34 error 404 Not Found
+34 error 404
+34 error 404 'ionic-datepicker' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'gizilocker'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Linux 3.19.0-39-generic
+36 error command "/usr/bin/node" "/usr/bin/npm" "install" "ionic-datepicker"
+37 error cwd /home/quangdung/Desktop/Gizilocker/Gizilocker/platforms/Gizilocker
+38 error node -v v0.10.37
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
